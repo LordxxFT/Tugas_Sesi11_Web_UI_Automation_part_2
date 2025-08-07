@@ -3,10 +3,6 @@
     "version": "1.0.0",
     "description": "Update -- Tugas 09 -> Tugas 10 -> Tugas 11 - Selenium WebDriver ",
     "scripts": {
-        "Test-Tugas-09": "mocha test/sesi-9/test_sesi9.js  --recursive --timeout 60000",
-        "Tugas-09-mochawesome": "mocha test/sesi-9/test_sesi9.js  --recursive --timeout 60000 --reporter mochawesome",
-        "Tugas-09-simple-html": "mocha test/sesi-9/test_sesi9.js  --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report_sesi9.html",
-        
         "Test-Tugas-10": "mocha test/sesi-10/test_sesi10.js  --recursive --timeout 60000",
         "Test-Tugas-10-with-grep": "mocha test/sesi-10/test_sesi10.js  --recursive --timeout 60000 --grep 'change'",
         "Test-Tugas-10-with-parallel": "mocha test/sesi-10/test_sesi10.js  --recursive --timeout 60000",
@@ -14,10 +10,10 @@
         "Tugas-10-simple-html": "mocha test/sesi-10/test_sesi10.js  --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report_sesi10.html",
         
         "Test-Tugas-11": "mocha test/sesi-11/test_sesi11.js  --recursive --timeout 60000",
-        "Test-Tugas-11-with-grep": "mocha test/sesi-11/test_sesi11.js  --recursive --timeout 60000 --grep 'change'",
+        "Test-Tugas-11-with-grep": "mocha test/sesi-11/test_sesi11.js  --recursive --timeout 60000 --grep 'a-z'",
         "Test-Tugas-11-with-parallel": "mocha test/sesi-11/test_sesi11.js  --recursive --timeout 60000",
         "Tugas-11-mochawesome": "mocha test/sesi-11/test_sesi11.js  --recursive --timeout 60000 --reporter mochawesome",
-        "Tugas-11-simple-html": "mocha test/sesi-11/test_sesi11.js  --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report_sesi10.html"
+        "Tugas-11-simple-html": "mocha test/sesi-11/test_sesi11.js  --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report_sesi11.html"
     },
     "dependencies": {
         "ajv": "^8.17.1",
